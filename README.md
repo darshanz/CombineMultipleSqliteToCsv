@@ -1,13 +1,13 @@
-Combine multiple sqlite files to single csv file.
+# Combine multiple sqlite files to single csv file.
+ 
 
-python script:
+This script is for converting multiple files to single CSV file.
+
+
+## python script:
+
 
 ***python multiple_sqlite_files_tocsv.py -d &lt;inputFolder&gt; -e &lt;extension&gt; -t &lt;tableName&gt;***
-
-
-Notebook:
-
-convert_sqlite_to_csv(inputFolder, ext, tableName)
 
 **inputFolder**  - Folder where sqlite files are located. 
 
